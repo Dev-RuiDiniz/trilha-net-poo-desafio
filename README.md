@@ -19,4 +19,23 @@ Você deve criar as suas classes de acordo com o diagrama abaixo:
 3. O método **InstalarAplicativo** deve ser sobrescrito na classe Nokia e iPhone, pois ambos possuem diferentes maneiras de instalar um aplicativo.
 
 ## Solução
-O código está pela metade, e você deverá dar continuidade obedecendo as regras descritas acima, para que no final, tenhamos um programa funcional. Procure pela palavra comentada "TODO" no código, em seguida, implemente conforme as regras acima.
+O desafio foi concluído com sucesso, resultando em um programa funcional que demonstra os conceitos de **abstração**, **herança** e **polimorfismo**. Todas as regras e validações foram atendidas, com a classe abstrata `Smartphone` servindo como modelo e as classes `Nokia` e `Iphone` fornecendo implementações específicas de acordo com suas características. O projeto final inclui um arquivo de teste (`Program.cs`) que valida o comportamento de cada celular.
+
+## Histórico de Modificações
+Este registro documenta as etapas de desenvolvimento para completar o desafio de projeto.
+
+1.  **Implementação da Classe `Smartphone`**:
+    * Adição de Propriedades (`Modelo`, `IMEI`, `Memoria`).
+    * Ajuste do Construtor para inicializar todas as propriedades.
+
+2.  **Implementação da Classe `Nokia`**:
+    * Herança da classe `Smartphone`.
+    * Sobrescrita do método `InstalarAplicativo`.
+
+3.  **Implementação da Classe `Iphone`**:
+    * Herança da classe `Smartphone`.
+    * Sobrescrita do método `InstalarAplicativo`.
+
+4.  **Criação do Programa de Teste (`Program.cs`)**:
+    * Instâncias das classes `Nokia` e `Iphone` foram criadas.
+    * Testes foram realizados para validar o comportamento de cada método.
